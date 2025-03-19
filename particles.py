@@ -12,7 +12,6 @@ class Particle():
         
         mass:float = constants.NEUTRON_MASS
         
-
         if color == 0:
             mass = constants.ELECTRON_MASS
             radius = constants.ELECTRON_RADIUS
